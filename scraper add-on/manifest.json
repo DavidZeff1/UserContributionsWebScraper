@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Wikipedia User Contributions Scraper",
+    "version": "1.0",
+    "description": "Scrape user contributions from Wikipedia history pages.",
+    "permissions": ["activeTab", "scripting", "downloads"],
+    "host_permissions": ["https://en.wikipedia.org/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  
